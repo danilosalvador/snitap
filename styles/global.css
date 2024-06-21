@@ -1,7 +1,11 @@
-*, *::after, *::before {
+*, 
+*::after, 
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 :root {
@@ -16,12 +20,20 @@
     --highlights: #000000;
     --background: #FAFAFA;
 
+
     --ff-base: 'Montserrat', sans-serif;
 
     --fs-sm: 0.875rem;
     --fs-base: 1rem;
     --fs-lg: 2.5rem;
     --fs-xl: 4rem;
+
+
+    --py-base: 1.5rem;
+
+    --px-sm: 0.75rem;
+    --px-base: 1.25rem;
+    --px-lg: 1.5rem;
 }
 
 html, button {
@@ -40,4 +52,19 @@ h1 {
 h2 {
     font-size: var(--fs-lg);
     line-height: 1.2;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+@media (width >= 80rem) {
+    :root {
+        --py-base: 2rem;
+
+        --px-sm: 0.75rem;
+        --px-base: 1.25rem;
+        --px-lg: 4rem;
+    }
 }
