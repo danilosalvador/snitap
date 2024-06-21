@@ -26,7 +26,7 @@
     --fs-sm: 0.875rem;
     --fs-base: 1rem;
     --fs-lg: 2.5rem;
-    --fs-xl: 4rem;
+    --fs-xl: 2rem;
 
 
     --py-base: 1.5rem;
@@ -61,10 +61,14 @@ a {
 
 @media (width >= 80rem) {
     :root {
+        --fs-xl: 4rem;
+
         --py-base: 2rem;
 
         --px-sm: 0.75rem;
-        --px-base: 1.25rem;
+        --px-base: 1.5rem;
         --px-lg: 4rem;
     }
+
+    
 }
