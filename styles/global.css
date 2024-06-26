@@ -22,6 +22,7 @@
 
 
     --ff-base: 'Montserrat', sans-serif;
+    --ff-logo: 'Syne', sans-serif;
 
     --fs-sm: 0.875rem;
     --fs-base: 1rem;
@@ -30,6 +31,7 @@
 
 
     --py-base: 1.5rem;
+    --py-xl: 3rem;
 
     --px-sm: 0.75rem;
     --px-base: 1.25rem;
@@ -64,11 +66,10 @@ a {
         --fs-xl: 4rem;
 
         --py-base: 2rem;
+        --py-xl: 4rem;
 
         --px-sm: 0.75rem;
         --px-base: 1.5rem;
-        --px-lg: 4rem;
-    }
-
-    
+        --px-lg: 2rem;
+    }   
 }
